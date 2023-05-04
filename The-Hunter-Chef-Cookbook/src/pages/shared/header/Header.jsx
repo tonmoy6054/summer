@@ -3,7 +3,7 @@ import React from 'react';
 import { Button, Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
 import Marquee from 'react-fast-marquee';
 import Categories from '../../Categories/Categories';
-
+import './Header.css'
 import {Link} from 'react-router-dom'
 
 
