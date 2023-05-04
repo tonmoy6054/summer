@@ -4,7 +4,7 @@ import { Button, Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
 import Marquee from 'react-fast-marquee';
 import Categories from '../../Categories/Categories';
 
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -13,18 +13,27 @@ import Categories from '../../Categories/Categories';
 const Header = () => {
     return (
         <div>
-            <h1 className='m-3 font-bold fs-1 fw-bold text-center fst-italic'>The Hunter Chef Cookbook</h1>
+            {/* <h1 className='m-3 font-bold fs-1 fw-bold text-center fst-italic'>The Hunter Chef Cookbook</h1> */}
             {/* navbar */}
 
-            <div className=''>
+            <nav>
 
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+<Link to="/">Home</Link>
+<Link to="/blogs">Blogs</Link>
+<Link to="/login">Login</Link>
+
+
+
+
+
+
+            {/* <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
         <Navbar.Brand href="#home">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-          <Nav.Link href="#Blogs">Blogs</Nav.Link>
+          <Nav.Link to="/blogs">Blogs</Nav.Link>
             
             
               
@@ -37,7 +46,7 @@ const Header = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> */}
 {/* carousel img */}
 {/* <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-indicators">
@@ -87,7 +96,7 @@ const Header = () => {
             </div>
             <Categories></Categories> */}
           
- </div>
+ </nav>
  </div>
 
 )}

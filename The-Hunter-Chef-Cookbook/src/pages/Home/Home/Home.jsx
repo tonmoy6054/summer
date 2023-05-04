@@ -3,14 +3,16 @@ import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import Marquee from 'react-fast-marquee';
 import Categories from '../../Categories/Categories';
+import Header from '../../shared/header/Header';
 const Home = () => {
     return (
         <div>
            <div>
             <h1 className='m-3 font-bold fs-1 fw-bold text-center fst-italic'>The Hunter Chef Cookbook</h1>
+            <Header></Header>
             {/* navbar */}
 
-            <div className=''>
+            {/* <div className=''>
 
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
@@ -31,7 +33,7 @@ const Home = () => {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> */}
 {/* carousel img */}
 <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-indicators">
@@ -83,7 +85,7 @@ const Home = () => {
           
  </div>
          
-        </div>
+        
     );
 };
 

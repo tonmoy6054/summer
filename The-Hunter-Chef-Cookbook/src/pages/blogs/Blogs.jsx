@@ -1,9 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import Header from '../shared/header/Header';
 
 const Blogs = () => {
     return (
         <div>
+            
             <h2>ques: differences between uncontrolled and controlled components</h2>
             <p>ans:Controlled Components
 is in the controlled component the form input element’s values and mutations are totally driven by event handlers and the value of the input element is always inferred from the state.The text input has the value attribute set as the components state ‘text’. This is very important so that the input component’s value will always be in sync with the components state ‘text’ s value.Secondly, we are handling the change event emitted by the input element whenever a user tries to update the input elements value. Inside the handler function, we are mutating the ‘text ’state with the updated input value. </p>
