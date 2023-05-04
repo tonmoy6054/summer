@@ -12,8 +12,8 @@ const Card = ({item}) => {
       <h2>{item.chefName} ; </h2>
       <h3>Years of Experience: {item.yearsOfExperience} ; </h3>
       <h3>Number of recipes: {item.numRecipes} ; </h3>
-      <h3>Likes : {item.likes}</h3>
-      <Button>Details</Button>
+      <h3>Likes : {item.likes} ; </h3>
+      <Button>View Recipes</Button>
      </CardGroup>
     </div>
   );
