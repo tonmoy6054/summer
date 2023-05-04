@@ -3,7 +3,7 @@ import React from 'react';
 import { Button, CardGroup} from 'react-bootstrap';
 
 const Card = ({item}) => {
-  console.log(item);
+  // console.log(item);
   return (
     <div>
      <CardGroup>

@@ -9,32 +9,8 @@ const Home = () => {
         <div>
            <div>
             <h1 className='m-3 font-bold fs-1 fw-bold text-center fst-italic'>The Hunter Chef Cookbook</h1>
-            <Header></Header>
-            {/* navbar */}
-
-            {/* <div className=''>
-
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-      <Container>
-        <Navbar.Brand href="#home">Home</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto">
-            <Nav.Link href="#Blogs">Blogs</Nav.Link>
-            
-            
-              
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">profile</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-            <Button variant="success">login</Button>
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar> */}
-{/* carousel img */}
+            {/* <Header></Header> */}
+           
 <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
