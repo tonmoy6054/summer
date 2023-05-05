@@ -27,7 +27,7 @@ const Register = (event) => {
 
     }
     return (
-        <div>
+        <div className='mt-5'>
             <form onSubmit={handleSubmit}>
                 <input type="name" name="name" id="" placeholder='Your Name'/>
                 <br></br>

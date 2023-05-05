@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
            <div>
-            <h1 className='m-3 font-bold fs-1 fw-bold text-center fst-italic'>The Hunter Chef Cookbook</h1>
+            {/* <h1 className='m-3 font-bold fs-1 fw-bold text-center fst-italic'>The Hunter Chef Cookbook</h1> */}
             {/* <Header></Header> */}
            
 <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -19,7 +19,7 @@ const Home = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="/chef.JPG" className="d-block w-100" alt="..."></img>
+      <img src="https://i.ibb.co/47QcDbh/chef.jpg" alt="chef" className="d-block w-100"></img>
       <div className="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>

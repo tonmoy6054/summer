@@ -12,7 +12,7 @@ const Recipies = () => {
   useEffect( () => {
     fetch('https://the-hunter-chef-cookbook-server-tonmoy6054.vercel.app/recipes')
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => setRecipes(data))
     
     .catch(error => console.error(error))
   }, [])

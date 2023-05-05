@@ -3,20 +3,14 @@ import React from 'react';
 import { useState } from 'react';
 import { Button, CardGroup } from 'react-bootstrap';
 import Footer from '../../shared/footer/Footer';
+import Recipies from '../../recipies/Recipies';
 
 
 const RecipeCard = () => {
-    const handleAll = () => {
-        console.log('tuqe maram');
-    }
-
-
     const [recipes, setRecipes] = useState('');
     return (
         <div>
-         {
-            recipes.map(recipe => setRecipes(recipe))
-         }
+        {}
         </div>
     );
 };

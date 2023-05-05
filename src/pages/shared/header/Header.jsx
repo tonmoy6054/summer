@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom'
 const Header = () => {
     return (
      <nav>
-
+<h1 className='m-3 font-bold fs-1 fw-bold text-center fst-italic'>The Hunter Chef Cookbook</h1>
 <Link to="/">Home</Link>
 <Link to="/blogs">Blogs</Link>
 <Link to="/login">Login</Link>

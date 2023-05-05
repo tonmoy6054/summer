@@ -42,8 +42,8 @@ console.log(error);
             <Button variant="outline-primary" onClick={handleGoogleSignIn}className="mb-2"><FaGoogle /> login with Google</Button>
 
       <Button variant="outline-secondary" onClick={handleGithubSignIn}><FaGithub />login with Github</Button>
-     <Link to='/register'>
-     <Button>New to this site? please register</Button>
+     <Link to='/register' className='mx-3'>
+     <small>New to this site? please register</small>
      </Link>
         </div>
     );
