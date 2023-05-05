@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 import { FaGithub,FaGoogle } from 'react-icons/fa';
 import {GithubAuthProvider, GoogleAuthProvider, getAuth, signInWithPopup} from 'firebase/auth';
 import app from '../../firebase/Firebase.config';
@@ -41,7 +42,9 @@ console.log(error);
             <Button variant="outline-primary" onClick={handleGoogleSignIn}className="mb-2"><FaGoogle /> login with Google</Button>
 
       <Button variant="outline-secondary" onClick={handleGithubSignIn}><FaGithub />login with Github</Button>
-      
+     <Link to='/register'>
+     <Button>New to this site? please register</Button>
+     </Link>
         </div>
     );
 };
