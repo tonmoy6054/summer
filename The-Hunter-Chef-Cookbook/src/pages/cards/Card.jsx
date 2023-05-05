@@ -1,9 +1,14 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Button, CardGroup} from 'react-bootstrap';
+import RecipeCard from './recipecard/RecipeCard';
 
-const Card = ({item}) => {
-  // console.log(item);
+ const Card = ({item}) => {
+  
+    
+  
+  
   return (
     <div>
      <CardGroup>
@@ -17,6 +22,5 @@ const Card = ({item}) => {
      </CardGroup>
     </div>
   );
-};
-
-export default Card;
+ }
+  export default Card;
